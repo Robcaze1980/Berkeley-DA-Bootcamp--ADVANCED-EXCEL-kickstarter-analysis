@@ -1,7 +1,7 @@
 # Module 1: Kickstarter
 # FUNDRISING CAMPAIGNS: LAUNCH DATE AND GOAL DATA ANALYSIS
 
-    ## Overview of Project
+## Overview of Project
         To make an analysis of data from fundrising campaigns and visualizate the outcome of the analysis.
             ### Purpose
                 Based on similar fundraising campaigns outcomes data to analyze the relations between the launch dates and goal accomplished for theater and plays campaigns.
