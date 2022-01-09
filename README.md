@@ -33,4 +33,4 @@ If goal is set below than 1k and above 50k will have the highest outcome in play
 3- Outcome based on country location
 4- Outcome based on days/weeks the campaign was live.
 5-Categories/subcategories with more backers.
-Analyze a dataset consisting of 4,000 crowdfunding projects to discover hidden trends.
+- Analyze a dataset consisting of 4,000 crowdfunding projects to discover hidden trends.
