@@ -13,7 +13,6 @@ Higher pledged sums: three months had the highest pledged amount for their proje
 Medium pledge sums: May, June, July, August and November had an average pledge sum, ranging from 400k to 580k.
 Lower pledged sums: On the months of January, February, March and December the lowest sums were obtained, ranging from 200k to 400k.
 ![alt text](https://github.com/Robcaze1980/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png?raw=true)               
-
 ### Analysis of Outcomes Based on Goals
 The plays campaigns shown the highest failure rate (above 70%) when ranged their goals from 25k to 49k.
 The successful campaigns (+50%) were with less 1k, in the range of 20-25k and when more than 50k goal.
@@ -29,9 +28,9 @@ a) To create a pivot table to generate the "Outcome based on goals" table to mak
 2- December had the lowest outcome of all the year, followed by the period of January to March.
 - What can you conclude about the Outcomes based on Goals?
 If goal is set below than 1k and above 50k will have the highest outcome in plays campaigns.
-- What are some limitations of this dataset?
-- What are some other possible tables and/or graphs that we could create?
-- Outcome based on country location
-- Outcome based on days/weeks the campaign was live.
--Categories/subcategories with more backers.
+1- What are some limitations of this dataset?
+2- What are some oth4er possible tables and/or graphs that we could create?
+3- Outcome based on country location
+4- Outcome based on days/weeks the campaign was live.
+5-Categories/subcategories with more backers.
 Analyze a dataset consisting of 4,000 crowdfunding projects to discover hidden trends.
