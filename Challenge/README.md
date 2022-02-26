@@ -22,19 +22,48 @@ In general, and including THS 9th grade students, the math and reading average g
 
 •	How is the school summary affected?
 
+When analysing the school summary data, it can be summarized as follow:
 
-### Analysis of Outcomes Based on Launch Date
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/per_school_summary_df.png?raw=true) 
 
-### Analysis of Outcomes Based on Goals
+In general, Thomas High School, after isolating the 461 reading and math grades for 9th grades and comparing with other schools, with no distinctions, math and reading scores do not show an important difference compared with other schools.
 
-### Challenges and Difficulties Encountered
+•	How does replacing the ninth grader's math and reading scores affect Thomas High School's performance relative to the other schools?
 
-## Results
+When excluding all 9th graders from THC, and running the analysis again same results show up f0r the district summary.
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+•	How does replacing the ninth-grade scores affect the following:
 
-- What can you conclude about the Outcomes based on Goals?
+### Math and Reading scores by grade
 
-- What are some limitations of this dataset?
+After analyzing the math scores by grades for the 15 schools and not including 9th grades we get the next table:
 
-- What are some other possible tables and/or graphs that we could create?
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/math_scores_by_grade_with_NaN.png?raw=true) 
+
+The results show that in general math grades has a higher standard deviation of 3.38 for the 15 schools in the data set. Thomas High School had an average grade of 83 points for 9,10 and 11th grades, which is above the mean in the district, altogheter with other four schools. Based on these numbers, no special data suggest some potential fraud in grades.
+
+The reading scores by grade show a more stable statistic results withing all the district with a  standard deviation of only 1.57 points, with THS with one of the highest grades. No special data show fraud in the reading scores for this school.
+
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/reading_scores_by_grade_with_NaN.png?raw=true) 
+
+
+### Scores by School Spending
+
+After grouping the data set by spending, the data shows that the biggest the per capita budget, the lowest percentage of passing for both classes as shown in the next table:
+
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Grades_percapita_budget_range.png?raw=true) 
+
+### Score by School Size
+
+If grouping by school size, no special data can be noted for the analysis.
+
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Grades_perSchool_Size.png?raw=true) 
+
+### Score by School Type
+
+The analysis by school type show interesting data. If the dataset is grouped by district schools, in general the math and reading scores show a very similar trend and ranges between the 7 schools.
+
+But, when we analyze the results grouping by charter schools, Thomas High School has an important  difference for the percentage passing math compared to the other schools. THS has a very low 67% of passing, compared to the otyhers 7 schools which have an average of 93%, as shown in the next table:
+
+
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Grades_perType.png?raw=true) 
