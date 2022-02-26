@@ -10,7 +10,7 @@ The next analysis will be used to validate or not, the above suspicions. The str
 
 ## RESULTS
 
-•	How is district summary affected?
+#### •	How is district summary affected?
 
 After isolating the 461 reading and math grades for 9th grades in Thomas High School (replacing grades wiht NaN values) we starting analizing grades data for 15 schools and 38,709 students in the school district.
 
@@ -20,7 +20,7 @@ The next table, shows a summary for this data (average grades, percentage of stu
 
 In general, and including THS 9th grade students, the math and reading average grade is 80.4% (78.9% and 81.9% respectively), but the percentage of passing (+70 points) is higher for reading, compared to math, with a difference of 10% (74.8% vs. 85.5%). This result cannot be attributed to the isolation or NaN values, as NaN values are equal and present in both scores and represent +1% of the total scores in the district.
 
-•	How is the school summary affected?
+#### •	How is the school summary affected?
 
 When analysing the school summary data, it can be summarized as follow:
 
@@ -28,13 +28,13 @@ When analysing the school summary data, it can be summarized as follow:
 
 In general, Thomas High School, after isolating the 461 reading and math grades for 9th grades and comparing with other schools, with no distinctions, math and reading scores do not show an important difference compared with other schools.
 
-•	How does replacing the ninth grader's math and reading scores affect Thomas High School's performance relative to the other schools?
+#### •	How does replacing the ninth grader's math and reading scores affect Thomas High School's performance relative to the other schools?
 
 When excluding all 9th graders from THC, and running the analysis again same results show up f0r the district summary.
 
-•	How does replacing the ninth-grade scores affect the following:
+#### •	How does replacing the ninth-grade scores affect the following:
 
-### Math and Reading scores by grade
+###### Math and Reading scores by grade
 
 After analyzing the math scores by grades for the 15 schools and not including 9th grades we get the next table:
 
@@ -46,24 +46,26 @@ The reading scores by grade show a more stable statistic results withing all the
 
 ![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/reading_scores_by_grade_with_NaN.png?raw=true) 
 
-
-### Scores by School Spending
+###### Scores by School Spending
 
 After grouping the data set by spending, the data shows that the biggest the per capita budget, the lowest percentage of passing for both classes as shown in the next table:
 
 ![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Grades_percapita_budget_range.png?raw=true) 
 
-### Score by School Size
+###### Score by School Size
 
 If grouping by school size, no special data can be noted for the analysis.
 
 ![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Grades_perSchool_Size.png?raw=true) 
 
-### Score by School Type
+###### Score by School Type
 
-The analysis by school type show interesting data. If the dataset is grouped by district schools, in general the math and reading scores show a very similar trend and ranges between the 7 schools.
-
-But, when we analyze the results grouping by charter schools, Thomas High School has an important  difference for the percentage passing math compared to the other schools. THS has a very low 67% of passing, compared to the otyhers 7 schools which have an average of 93%, as shown in the next table:
-
+The analysis by school type shows interesting data. If the dataset is grouped by the type of schools, as summary, the math and reading scores show a very similar trend and ranges between the 7 schools.
 
 ![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Grades_perType.png?raw=true) 
+
+But, when we analyze the results grouping by charter schools, Thomas High School has an important  difference for the percentage passing math compared to the other schools. THS has a very low 67% of passing, compared to the otyhers 7 schools which have an average of 93%, as shown in the next table.
+
+![alt text](https://github.com/Robcaze1980/School_District_Analysis./blob/master/Challenge/Images_challanges/Summary%20for%20Charter%20Schools.png?raw=true) 
+
+## SUMMARY OF RESULTS
